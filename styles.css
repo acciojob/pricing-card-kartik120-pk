@@ -1,1 +1,61 @@
-/*  your css code here. If applicable */
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Card container styling */
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Card image styling */
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 24px;
+  color: #333;
+  margin: 15px 0;
+}
+
+/* Card price styling */
+.card-price {
+  font-size: 20px;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+/* Card description styling */
+.card-description {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Buy Now button styling */
+.buy-now {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
